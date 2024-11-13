@@ -1,5 +1,5 @@
-exports.add = function(a, b) {
-	return a + b;
+exports.add = function(c, d) {
+	return c + d;
 };
 
 exports.subtract = function(a, b) {
