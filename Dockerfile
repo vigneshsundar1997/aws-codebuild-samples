@@ -9,4 +9,5 @@ RUN apk update \
     && apk add bash \
     && npm install \
     && mv node_modules node_modules_cache \
-    && rm -r package.json npm-shrinkwrap.json /tmp/*
+    && rm -r package.json npm-shrinkwrap.json /tmp/* \
+    && unknown_command
